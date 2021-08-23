@@ -2,7 +2,7 @@
 
 ## Requerimientos
 
-- Estructurar nuestro código bajo la arquitectura `Modelo Vista Controlador`:
+- Estructurar y modular nuestro código para emular la arquitectura `Modelo Vista Controlador`:
 
 <p align="center">
   <img width="600" src="./mvc.jpg" />
