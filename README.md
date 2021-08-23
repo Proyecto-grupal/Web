@@ -10,3 +10,4 @@
 
 
 - Utilizar `JavaScript Standard Style`
+- Frameworks CSS sugeridos: Bootstrap / MaterialUI
