@@ -9,5 +9,5 @@
 </p>
 
 
-- Utilizar `JavaScript Standard Style`
+- Linting: `JavaScript Standard Style`
 - Frameworks CSS sugeridos: Bootstrap / MaterialUI
