@@ -1,9 +1,14 @@
 import logo from './logo.svg'
 import './App.css'
 
+// const functions = require('firebase-functions')
+// const request = require('request-promise')
+
 const { REACT_APP_ENV } = process.env
 
 function App () {
+  console.log(REACT_APP_ENV)
+
   return (
     <div className='App'>
       <header className='App-header'>
