@@ -5,7 +5,7 @@
 - Estructurar y modular nuestro código para emular la arquitectura `Modelo Vista Controlador`:
 
 <p align="center">
-  <img width="600" src="./mvc.jpg" />
+  <img width="600" src="./readme/mvc.jpg" />
 </p>
 
 
