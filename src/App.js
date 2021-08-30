@@ -6,6 +6,7 @@ function App () {
       <header className='App-header'>
 
         {Location}
+        HOLA
 
       </header>
     </div>
