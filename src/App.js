@@ -1,6 +1,8 @@
 import logo from './logo.svg'
 import './App.css'
 
+const { REACT_APP_ENV } = process.env
+
 function App () {
   return (
     <div className='App'>
@@ -15,7 +17,7 @@ function App () {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Learn React
+          {REACT_APP_ENV}
         </a>
       </header>
     </div>
