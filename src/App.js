@@ -1,13 +1,13 @@
-import { RouterWeb } from "./components/RoutesWeb";
-import { Location } from "./config/config";
+import { RouterWeb } from './RoutesWeb/'
+import { Location } from './config/config'
 
 const App = () => {
   return (
-  <div>
-    <RouterWeb />
-    {Location}
+    <div>
+      <RouterWeb />
+      {Location}
     </div>
   )
-};
+}
 
-export default App;
+export default App

@@ -3,20 +3,21 @@ import {
   InputGroup,
   FormControl,
   Container,
-  Col,
-} from "react-bootstrap";
+  Col
+} from 'react-bootstrap'
 
-import { Style } from "./SearchBarStyle";
+import { Style } from './SearchBarStyle'
 
 export const SearchBarView = () => {
   return (
     <Container>
-        <Col sm={10} md={8} lg={6}>
-          <InputGroup size="lg" style={Style}>
-            <FormControl classname="rounded-3" placeholder="Busca tu curso" />
-            <Button variant="outline-success">Buscar</Button>
-          </InputGroup>
-        </Col>
+      <Col sm={10} md={8} lg={6}>
+        <InputGroup style={Style} size='lg'>
+          <div className='m-2 p-3 w-75'><FormControl classname='rounded-3 m-2' placeholder='Busca tu curso Online' /></div>
+          <div className='m-2 p-3'><Button variant='outline-success'>Buscar</Button></div>
+        </InputGroup>
+
+      </Col>
     </Container>
-  );
-};
+  )
+}
