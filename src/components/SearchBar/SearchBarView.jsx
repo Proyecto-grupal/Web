@@ -5,17 +5,18 @@ import {
   Container,
   Col,
 } from "react-bootstrap";
+
 import { Style } from "./SearchBarStyle";
 
 export const SearchBarView = () => {
   return (
     <Container>
-      <Col sm={10} md={8} lg={6}>
-        <InputGroup size="lg" style={Style}>
-          <FormControl placeholder="Busca tu curso" />
-          <Button variant="outline-success">Buscar</Button>
-        </InputGroup>
-      </Col>
+        <Col sm={10} md={8} lg={6}>
+          <InputGroup size="lg" style={Style}>
+            <FormControl classname="rounded-3" placeholder="Busca tu curso" />
+            <Button variant="outline-success">Buscar</Button>
+          </InputGroup>
+        </Col>
     </Container>
   );
-}
+};

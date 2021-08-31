@@ -1,3 +1,7 @@
 export const Style = {
-    magin: '2rem',
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: '50%',
+    border: 'solid grey 2px',
+    padding: '10%',
 }
