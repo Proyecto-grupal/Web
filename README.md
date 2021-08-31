@@ -10,4 +10,8 @@
 
 
 - Linting: `JavaScript Standard Style`
-- Frameworks CSS sugeridos: Bootstrap / MaterialUI
+- Frameworks Diseño:
+*react-icons
+*react-bootstrap
+
+##Colores
