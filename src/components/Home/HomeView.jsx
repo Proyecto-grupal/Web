@@ -2,7 +2,7 @@ import {
 
 } from "react-bootstrap";
 
-import { Style } from "./MyClassesStyle";
+import { Style } from "./HomeStyle";
 
 import SearchBar from '../SearchBar/SearchBar'
 
