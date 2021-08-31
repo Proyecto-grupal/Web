@@ -1,4 +1,4 @@
-import SearchBarView from "./SearchBarView";
+import {SearchBarView} from "./SearchBarView";
 
 // import { useState } from "react";
 // import { useDispatch } from "react-redux";
