@@ -1,7 +1,12 @@
+import { Button, InputGroup, FormControl } from 'react-bootstrap';
+
 export default function SearchBarView() {
     return (
-        <div>
-            <h1>soy SearchBarView</h1>
-        </div>
+        <InputGroup size="lg">
+           <FormControl
+      placeholder="Busca tu curso"
+    />
+    <Button variant="outline-primary">Buscar</Button> 
+        </InputGroup>
     )
 }
