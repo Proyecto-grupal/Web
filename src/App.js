@@ -1,16 +1,18 @@
 import { Location } from './config/config'
+import { PersistGate } from 'redux-persist/integration/react'
+import { Provider } from 'react-redux';
+import { persistor, store } from './Store/index';
+//Debo cambiar el null por LoadingView
+// import { RootComponent, LoadingView } from './components';
 
-function App () {
+const App = () => {
   return (
-    <div className='App'>
-      <header className='App-header'>
-
-        {Location}
-        HOLA
-
-      </header>
-    </div>
-  )
-}
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+      {Location}
+      </PersistGate>
+    </Provider>
+  );
+};
 
 export default App
