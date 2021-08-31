@@ -13,7 +13,7 @@ export const SearchBarView = () => {
   return (
     <div style={Contenedor}>
       <Container>
-        <Col sm={10} md={8} lg={6}>
+        <Col sm={12} md={10} lg={8}>
           <InputGroup style={Style}>
             <FiSearch className='m-4' size={35} /><FormControl style={Input} placeholder='Profesores, tecnologias, cursos y mucho mas' />
             <div className='m-3 p-3'><Button style={Boton} variant='outline-success'>Buscar</Button></div>
