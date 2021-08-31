@@ -1,25 +1,25 @@
-<<<<<<< HEAD
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-=======
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { Provider } from 'react-redux'
-import store from './redux/store'
 import { BrowserRouter as Router } from 'react-router-dom'
->>>>>>> 25e7a9cea6fac84ced303e711f7752670bcc06c4
+import { PersistGate } from 'redux-persist/integration/react'
+import Store from './redux/store/';
+// Debo cambiar el null por LoadingView
+// import { RootComponent, LoadingView } from './components';
+
+const { persistor, store } = Store
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
+    <PersistGate loading={null} persistor={persistor}>
       <Router>
         <App />
       </Router>
+      </PersistGate>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
