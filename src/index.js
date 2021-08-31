@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals'
 import { Provider } from 'react-redux'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { PersistGate } from 'redux-persist/integration/react'
-import Store from './redux/store/';
+import Store from './redux/store/'
 // Debo cambiar el null por LoadingView
 // import { RootComponent, LoadingView } from './components';
 
@@ -15,10 +15,10 @@ const { persistor, store } = Store
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
-      <Router>
-        <App />
-      </Router>
+      <PersistGate loading={null} persistor={persistor}>
+        <Router>
+          <App />
+        </Router>
       </PersistGate>
     </Provider>
   </React.StrictMode>,

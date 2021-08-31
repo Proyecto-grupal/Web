@@ -1,10 +1,9 @@
-import  {NavBar}  from './NavBarView'
+import { NavBar } from './NavBarView'
 
 export const NavBarView = () => {
-    return (
-        <div>
-           <NavBar />  
-        </div>
-    )
+  return (
+    <div>
+      <NavBar />
+    </div>
+  )
 }
-

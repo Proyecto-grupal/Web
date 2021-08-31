@@ -1,9 +1,9 @@
-import {MyClassesView} from "./MyClassesView";
+import { MyClassesView } from './MyClassesView'
 
 export const MyClasses = () => {
-    return (
-        <div>
-            <MyClassesView />
-        </div>
-    )
+  return (
+    <div>
+      <MyClassesView />
+    </div>
+  )
 }

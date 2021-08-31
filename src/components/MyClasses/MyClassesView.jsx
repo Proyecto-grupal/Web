@@ -1,13 +1,13 @@
 import {
 
-} from "react-bootstrap";
+} from 'react-bootstrap'
 
-import { Style } from "./MyClassesStyle";
+import { Style } from './MyClassesStyle'
 
 export const MyClassesView = () => {
-    return (
-        <div>
-            <h1>soy MyClassesView</h1>
-        </div>
-    )
+  return (
+    <div>
+      <h1>soy MyClassesView</h1>
+    </div>
+  )
 }
