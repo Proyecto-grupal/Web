@@ -1,3 +1,9 @@
+import {
+
+} from "react-bootstrap";
+
+import { Style } from "./FooterStyle";
+
 export default function FooterView() {
     return (
         <div>

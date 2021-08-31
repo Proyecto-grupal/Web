@@ -1,3 +1,9 @@
+import {
+
+} from "react-bootstrap";
+
+import { Style } from "./MyClassesStyle";
+
 export default function MyClassesView() {
     return (
         <div>

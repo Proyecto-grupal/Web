@@ -1,7 +1,15 @@
+import {
+
+} from "react-bootstrap";
+
+import { Style } from "./MyClassesStyle";
+
+import SearchBar from '../SearchBar/SearchBar'
+
 export default function HomeView() {
     return (
         <div>
-            <h1> soy HomeView</h1>
+            <SearchBar />
         </div>
     )
 }
