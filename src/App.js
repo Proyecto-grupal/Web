@@ -1,15 +1,13 @@
-import { Location } from './config/config'
+import { RouterWeb } from "./components/RoutesWeb";
+import { Location } from "./config/config";
 
-function App () {
+const App = () => {
   return (
-    <div className='App'>
-      <header className='App-header'>
-
-        {Location}
-
-      </header>
+  <div>
+    <RouterWeb />
+    {Location}
     </div>
   )
-}
+};
 
-export default App
+export default App;
