@@ -1,4 +1,4 @@
-import RouterWeb from "./components/RoutesWeb";
+import { RouterWeb } from "./components/RoutesWeb";
 import { Location } from "./config/config";
 
 const App = () => {

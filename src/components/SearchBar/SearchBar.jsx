@@ -3,7 +3,7 @@ import SearchBarView from "./SearchBarView";
 // import { useState } from "react";
 // import { useDispatch } from "react-redux";
 
-export default function SearchBar() {
+export const SearchBar = () => {
 
     // const [name, setName] = useState(""); 
     

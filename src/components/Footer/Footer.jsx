@@ -1,6 +1,6 @@
-import FooterView from "./FooterView";
+import { FooterView } from "./FooterView";
 
-export default function Footer() {
+export const Footer = () => {
     return (
         <div>
             <FooterView />

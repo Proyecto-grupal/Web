@@ -1,6 +1,6 @@
-import MyClassesView from "./MyClassesView";
+import {MyClassesView} from "./MyClassesView";
 
-export default function MyClasses() {
+export const MyClasses = () => {
     return (
         <div>
             <MyClassesView />

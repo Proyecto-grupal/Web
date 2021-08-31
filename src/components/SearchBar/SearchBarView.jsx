@@ -7,7 +7,7 @@ import {
 } from "react-bootstrap";
 import { Style } from "./SearchBarStyle";
 
-export default function SearchBarView() {
+export const SearchBarView = () = {
   return (
     <Container>
       <Col sm={10} md={8} lg={6}>

@@ -1,6 +1,6 @@
-import HomeView from "./HomeView";
+import { HomeView } from "./HomeView";
 
-export default function Home() {
+export const Home = () => {
 
     return (
         <div>

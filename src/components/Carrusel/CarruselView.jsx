@@ -4,7 +4,7 @@ import {
 
 import { Style } from "./CarruselStyle";
 
-export default function CarruselView() {
+export const CarruselView = () => {
     return (
         <div>
             <h1> soy CarruselView</h1>

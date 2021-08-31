@@ -4,9 +4,9 @@ import {
 
 import { Style } from "./HomeStyle";
 
-import SearchBar from '../SearchBar/SearchBar'
+import { SearchBar } from '../SearchBar/SearchBar'
 
-export default function HomeView() {
+export const HomeView = () => {
     return (
         <div>
             <SearchBar />

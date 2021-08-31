@@ -1,6 +1,6 @@
 import CarruselView from "./CarruselView";
 
-export default function Carrusel() {
+export const Carrusel = () => {
     return (
         <div>
             <CarruselView />

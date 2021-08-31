@@ -4,7 +4,7 @@ import {
 
 import { Style } from "./MyClassesStyle";
 
-export default function MyClassesView() {
+export const MyClassesView = () => {
     return (
         <div>
             <h1>soy MyClassesView</h1>

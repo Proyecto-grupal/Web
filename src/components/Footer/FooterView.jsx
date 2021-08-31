@@ -4,7 +4,7 @@ import {
 
 import { Style } from "./FooterStyle";
 
-export default function FooterView() {
+export const FooterView = () => {
     return (
         <div>
             <h1> soy FooterView</h1>

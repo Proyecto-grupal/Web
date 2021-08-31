@@ -1,4 +1,4 @@
-import  NavBar  from './NavBarView'
+import  {NavBar}  from './NavBarView'
 
 export const NavBarView = () => {
     return (
