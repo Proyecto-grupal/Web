@@ -21,7 +21,7 @@ export const SearchBarView = () => {
                 style={Input}
                 placeholder='Profesores, tecnologias, cursos y mucho mas !'
               />
-          <div className='m-2 p-2'><Button style={Boton} variant='outline-success'>Buscar</Button></div>
+              <div className='m-2 p-2'><Button style={Boton} variant='outline-success'>Buscar</Button></div>
             </InputGroup.Text>
           </InputGroup>
         </Col>
