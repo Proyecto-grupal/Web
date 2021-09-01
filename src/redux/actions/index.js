@@ -12,3 +12,10 @@ export const getBestLessons = (lessons) => {
     payload: lessons
   }
 }
+
+export const getCategories = (categories) => {
+  return {
+    type: 'GET_CATEGORIES',
+    payload: categories
+  }
+}
