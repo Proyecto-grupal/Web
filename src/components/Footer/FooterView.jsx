@@ -1,13 +1,13 @@
 import {
 
-} from "react-bootstrap";
+} from 'react-bootstrap'
 
-import { Style } from "./FooterStyle";
+import { Style } from './FooterStyle'
 
 export const FooterView = () => {
-    return (
-        <div>
-            <h1> soy FooterView</h1>
-        </div>
-    )
+  return (
+    <div>
+      <h1> soy FooterView</h1>
+    </div>
+  )
 }

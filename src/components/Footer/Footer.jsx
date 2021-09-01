@@ -1,9 +1,9 @@
-import { FooterView } from "./FooterView";
+import { FooterView } from './FooterView'
 
 export const Footer = () => {
-    return (
-        <div>
-            <FooterView />
-        </div>
-    )
+  return (
+    <div>
+      <FooterView />
+    </div>
+  )
 }

@@ -1,7 +1,7 @@
 export const Style = {
-    alignItems: 'center',
-    justifyContent: 'center',
-    margin: '50%',
-    border: 'solid grey 2px',
-    padding: '10%',
+  alignItems: 'center',
+  justifyContent: 'center',
+  margin: '40%',
+  border: 'solid grey 2px',
+  padding: '5%'
 }

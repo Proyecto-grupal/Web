@@ -1,9 +1,9 @@
-import CarruselView from "./CarruselView";
+import CarruselView from './CarruselView'
 
 export const Carrusel = () => {
-    return (
-        <div>
-            <CarruselView />
-        </div>
-    )
+  return (
+    <div>
+      <CarruselView />
+    </div>
+  )
 }
