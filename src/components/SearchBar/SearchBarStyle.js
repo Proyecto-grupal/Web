@@ -1,7 +1,8 @@
 export const Style = {
   alignItems: 'center',
   justifyContent: 'center',
-  borderRadius: '25px'
+  borderRadius: '25px',
+  width: '100%',
 }
 
 export const Contenedor = {
@@ -24,6 +25,6 @@ export const Boton = {
 
 export const Input = {
   borderRadius: '12px',
-  width: '60%',
+  width: '100%',
   padding: '8px'
 }

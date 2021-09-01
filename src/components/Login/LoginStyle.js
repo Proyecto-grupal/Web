@@ -12,7 +12,7 @@ export const container = {
   alignItems: 'center',
   justifyContent: 'center',
   justifyText: 'center',
-  margin: '5%'
+  margin: '5%',
 }
 
 export const botton = {

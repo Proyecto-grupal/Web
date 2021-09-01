@@ -1,6 +1,6 @@
 import { LoginView } from './LoginView'
 
-export const Login = () => {
+export const Login = (props) => {
   return (
     <div>
       <LoginView />
