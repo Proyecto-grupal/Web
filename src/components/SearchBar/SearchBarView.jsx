@@ -23,6 +23,3 @@ export const SearchBarView = () => {
     </div>
   )
 }
-
-{ /* <div className='m-2 p-3 w-75'><FormControl classname='rounded-6 m-3' placeholder='Profesores, tecnologias, cursos y mucho mas' /></div>
-<div className='m-2 p-3 w-40'><Button variant='outline-success'>Buscar</Button></div> */ }

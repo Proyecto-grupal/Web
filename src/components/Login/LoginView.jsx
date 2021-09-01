@@ -1,26 +1,40 @@
-import {
-  Container,
-  Button,
-  Col,
-  Row
-} from 'react-bootstrap'
+import { Container, Button, Col, Row, FormControl, InputGroup } from 'react-bootstrap'
+import { HiOutlineMail } from 'react-icons/hi'
+import { GrGoogle } from 'react-icons/gr'
 
-import { Style } from './LoginStyle'
+import { Style, container, botton, img } from './LoginStyle'
 
 export const LoginView = () => {
   return (
     <div>
-      <Container style={Style}>
-        <Row>
-          <Col>
-            <h1>Aca va a ir una imagen</h1>
+      <Container lg={6}>
+        <Row style={Style}>
+          <Col style={container}>
+            <div><img width='300px' heigth='400px' src='https://images.unsplash.com/photo-1619912947529-b52b11ed92a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Z2F0b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80' /></div>
           </Col>
-          <Col>
-            <Row>
-              <h1>Ingresar Sesion</h1>
-              <h4>Podemos invitarte a tu correo un codigo de verificacion para iniciar sesion o puedes hacerlo con tu cuenta de Github</h4>
-              <div className='m-2'><Button variant='outline-primary'>Inicial Sesion</Button></div>
-              <div className='m-2'><Button variant='outline-warning'>Ingresar con Github</Button></div>
+          <Col lg={6}>
+            <Row style={container}>
+              <h1 className='d-flex  m-3 justify-content-center'>Iniciar Sesion</h1>
+              <h6 className='d-flex m-3 text-center'>
+                Podemos invitarte a tu correo un codigo de verificacion para
+                iniciar sesion o puedes hacerlo con tu cuenta de Github
+              </h6>
+              <InputGroup size='md' className='d-flex m-2'>
+                <InputGroup.Text id='e-mail' className='bg-white'>
+                  <HiOutlineMail size={30} />
+                </InputGroup.Text>
+                <FormControl
+                  aria-label='E-mail'
+                  placeholder='Ingresa tu E-mail'
+                />
+              </InputGroup>
+              <div className='m-3 w-75'>
+                <Button style={botton} variant='outline-warning text-white pl-1 pr-1 w-100'><HiOutlineMail size={25} className='text-white' />Enviar</Button>
+              </div>
+              <h4 className='m-1 text-center'> O </h4>
+              <div className='m-3 w-75'>
+                <Button style={botton} variant='outline-warning text-white w-100'><GrGoogle size={20} className='m-1 text-white' />Ingresar con Google</Button>
+              </div>
             </Row>
           </Col>
         </Row>

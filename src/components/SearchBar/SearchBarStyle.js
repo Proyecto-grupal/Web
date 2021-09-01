@@ -18,7 +18,7 @@ export const Boton = {
   borderRadius: '8px',
   paddingLeft: '50px',
   paddingRight: '50px',
-  backgroundColor: '#34c759',
+  backgroundColor: '#34c759' , 
   color: 'white'
 }
 

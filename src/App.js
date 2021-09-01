@@ -1,4 +1,4 @@
-import { RouterWeb } from './routesWeb'
+import { RouterWeb } from './RoutesWeb/index'
 import { Location } from './config/config'
 
 const App = () => {
