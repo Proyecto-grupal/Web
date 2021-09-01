@@ -1,10 +1,10 @@
 import { Container, Button, Col, Row, FormControl, InputGroup } from 'react-bootstrap'
+import { AiOutlineQrcode } from 'react-icons/ai'
 import { HiOutlineMail } from 'react-icons/hi'
-import { GrGoogle } from 'react-icons/gr'
 
-import { Style, container, botton } from './LoginStyle'
+import { Style, container, botton } from './LoginCheckStyle'
 
-export const LoginView = () => {
+export const LoginCheckView = () => {
   return (
     <div>
       <Container >
@@ -14,26 +14,21 @@ export const LoginView = () => {
           </Col>
           <Col lg={6} md={8} sm={10}>
             <Row style={container}>
-              <h1 className='d-flex  m-3 justify-content-center'>Iniciar Sesion</h1>
+              <h1 className='d-flex  m-3 text-center'>Codigo de verificacion</h1>
               <h6 className='d-flex m-3 text-center'>
-                Podemos invitarte a tu correo un codigo de verificacion para
-                iniciar sesion o puedes hacerlo con tu cuenta de Google
+                Ingresa el codigo que hemos enviado al correo 'usuario@gmail.com' para iniciar sesion y seguir aprendiendo
               </h6>
               <InputGroup size='md' className='d-flex m-2'>
-                <InputGroup.Text id='e-mail' className='bg-white'>
-                  <HiOutlineMail size={30} />
+                <InputGroup.Text id='codigo' className='bg-white'>
+                  <AiOutlineQrcode size={30} />
                 </InputGroup.Text>
                 <FormControl
-                  aria-label='E-mail'
-                  placeholder='Ingresa tu E-mail'
+                  aria-label='codigo'
+                  placeholder='- - - - - -'
                 />
               </InputGroup>
               <div className='m-3 w-75'>
                 <Button style={botton} variant='outline-warning text-white pl-1 pr-1 w-100'><HiOutlineMail size={25} className='text-white' />Enviar</Button>
-              </div>
-              <h4 className='m-1 text-center'> O </h4>
-              <div className='m-3 w-75'>
-                <Button style={botton} variant='outline-warning text-white w-100'><GrGoogle size={20} className='m-1 text-white' />Ingresar con Google</Button>
               </div>
             </Row>
           </Col>
