@@ -7,8 +7,8 @@ export const form = {
 
 export const Boton = {
   borderRadius: '8px',
-  paddingLeft: '50px',
-  paddingRight: '50px',
+  paddingLeft: '10%',
+  paddingRight: '10%',
   backgroundColor: '#34c759',
   color: 'white'
 }
